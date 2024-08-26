@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif !important;
+}
+
+.container {
+    padding: 0px 200px;
+}
+
+.Serenity-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.Serenity-header ul li:hover {
+    cursor: pointer;
+    color: #94C045;
+}
+
+
+.Serenity-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Serenity-header ul li {
+    margin: 0px 25px;
+}
+
+/* .Serenity-heade h2{
+    align-items: center;
+    
+} */
+.Serenity-header button {
+    background-color: #94C045;
+    width: 140px;
+    height: 35px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+.Serenity-header button:hover {
+    background-color: #95c045d3;
+}
+
+.Serenity-header h2 {
+    cursor: pointer;
+}
+
+.Serenity-header button:hover {
+    cursor: pointer;
+
+
+}
+
+/* hero img */
+
+.hero-img {
+    background-image: url(./img/hero.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.hero-img button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    /* border: none; */
+    background: transparent;
+    border: 2px solid #94C045;
+    color: #FFFFFF;
+}
+
+.hero-img button:hover {
+    background-color: #94C045;
+    cursor: pointer;
+}
+
+
+
+/* Hero-card-section  */
+
+
+.hero-start {
+    /* position: relative; */
+}
+
+.hero-card-section {
+    /* border: 1px solid; */
+    width: calc(100%-200px);
+    height: 700px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    box-shadow: 7px 4px 24px -12px rgba(0, 0, 0, 0.66);
+ 
+}
+
+.icons-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.acheivements-sectiom {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+
+}
+
+.acheivements-sectiom h1 {
+    margin-left: 10px;
+}
+
+.acheivements-sectiom iconify-icon {
+    color: #94c045;
+    font-size: 50px;
+}
+
+.icons-1 {
+    /* font-size: 50px;
+    color: #94c045; */
+
+
+}
+
+.hero-section-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.hero-img-2 {
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.hero-left-img {
+    margin-right: 30px;
+}
+
+.hero-right-section h1 {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(60, 65, 51);
+
+}
+
+.hero-right-section p {
+    margin-top: 10px;
+}
+
+
+
+.click {
+    font-size: 30px;
+    color: #94C045;
+}
+
+.salar {
+    display: flex;
+
+    padding: 10px 0px;
+
+}
+
+.salar p {
+    margin-top: 1px;
+}
+
+.salar iconify-icon {
+    padding-right: 5px;
+}
+
+.call-section {
+    width: 100%; 
+    height: 200px;
+    background-color: #94C045;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+
+.call-section p {
+    /* color: #FFFFFF; */
+    margin: 30px 0px;
+}
+
+.call-section button {
+    /* background-color: #ddecc0; */
+    width: 150px;
+    height: 35px;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: #FFFFFF;
+
+}
+
+.call-section button:hover {
+    cursor: pointer;
+    border: none;
+    background-color: #8bad4a;
+
+
+}
+
+.Services {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 40px 0px;
+    color: #646c55;
+}
+
+.servres-span {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.servres-span:hover {
+    color: #8bad4a;
+    cursor: pointer;
+}
+
+
+
+.serveres-maine-div {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.serveres-maine-div span {
+    line-height: 50px;
+}
+
+
+.card {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.card iconify-icon {
+    font-size: 60px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+
+.icons-1 {
+
+    color: #ff689b;
+}
+
+.icons-3 {
+    /* margin-right: 2px; */
+    color: #e9bf06;
+}
+
+.icons-4 {
+
+    color: #3fcdc7;
+}
+
+.icons-5 {
+    color: #41cf2e;
+}
+
+.icons-6 {
+
+    color: #d6ff22;
+}
+
+.icons-7 {
+
+    color: #4680ff;
+}
+
+
+
+/* Secaton serenity */
+
+
+.mine-div-Serenity {
+    display: flex;
+    background-color: #1C1F18;
+    margin-top: 50px;
+    padding-left: 180px;
+}
+
+
+.Serenity {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.Serenity h1 {
+    color: #94C045;
+    margin-bottom: 20px;
+}
+
+
+
+.Useful {
+    color: #FFFFFF;
+    padding: 50px;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+
+.Useful ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+.Contact {
+    color: #FFFFFF;
+    padding: 50px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.OUR {
+    color: #FFFFFF;
+    padding: 50px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.OUR button {
+    background-color: #94C045;
+    width: 110px;
+    height: 33px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.input {
+    padding: 7px 0px;
+}
+
+.button,
+input {
+    margin-top: 20px;
+}
+
+.OUR button:hover {
+    cursor: pointer;
+    background-color: #8cb63f;
+}
+
+.icons-2 {
+    background-color: #3C4133;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.icons-2:hover {
+    background-color: #8bad4a;
+    cursor: pointer;
+}
+
+
+
+.Useful h1,
+.Contact h1,
+.OUR h1 {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ecation-BootstrapMade */
+
+.BootstrapMade {
+    width: 100%;
+    height: 100px;
+    background-color: #141611;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+}
+
+.BootstrapMade span {
+    color: #9fe719;
+}
+
+.BootstrapMade span:hover {
+    color: #94b852;
+    cursor: pointer;
+}
+
+.BootstrapMade p {
+    padding-top: 20px;
+}
